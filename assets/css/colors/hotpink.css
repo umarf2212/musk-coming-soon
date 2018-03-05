@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: hotpink;
+}
+
+a.link {
+	color: hotpink;
+}
+a.link:hover {
+	color: hotpink;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid hotpink;
+}
+.navigation a div:hover {
+	background: hotpink;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: hotpink;
+}
+
+.border-bottom {
+	border-bottom: 2px solid hotpink;
+}
+
+.font-colored {
+	color: hotpink;
+}
+
+.message-form {
+	border-bottom: 1px solid hotpink;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid hotpink;
+}
+
+.btn-message {
+	border: 1px solid hotpink;
+	background: hotpink;
+}
+
+.owl-mssg-subs button {
+	background: hotpink;
+	border: 1px solid hotpink;
+}
+
+.close-button:hover {
+	color: hotpink;
+}
+
+.social-icons span:hover {
+	color: hotpink;
+}
+
+.divider {
+	border: 2px solid hotpink;
+}
+
+.musk-progress {
+	background: hotpink;
+}
+
+.countdown-timer .word {
+	background: hotpink;
+}

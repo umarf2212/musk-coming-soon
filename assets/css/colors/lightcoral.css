@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: lightcoral;
+}
+
+a.link {
+	color: lightcoral;
+}
+a.link:hover {
+	color: lightcoral;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid lightcoral;
+}
+.navigation a div:hover {
+	background: lightcoral;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: lightcoral;
+}
+
+.border-bottom {
+	border-bottom: 2px solid lightcoral;
+}
+
+.font-colored {
+	color: lightcoral;
+}
+
+.message-form {
+	border-bottom: 1px solid lightcoral;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid lightcoral;
+}
+
+.btn-message {
+	border: 1px solid lightcoral;
+	background: lightcoral;
+}
+
+.owl-mssg-subs button {
+	background: lightcoral;
+	border: 1px solid lightcoral;
+}
+
+.close-button:hover {
+	color: lightcoral;
+}
+
+.social-icons span:hover {
+	color: lightcoral;
+}
+
+.divider {
+	border: 2px solid lightcoral;
+}
+
+.musk-progress {
+	background: lightcoral;
+}
+
+.countdown-timer .word {
+	background: lightcoral;
+}

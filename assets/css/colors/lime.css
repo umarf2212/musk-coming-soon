@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: lime;
+}
+
+a.link {
+	color: lime;
+}
+a.link:hover {
+	color: lime;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid lime;
+}
+.navigation a div:hover {
+	background: lime;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: lime;
+}
+
+.border-bottom {
+	border-bottom: 2px solid lime;
+}
+
+.font-colored {
+	color: lime;
+}
+
+.message-form {
+	border-bottom: 1px solid lime;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid lime;
+}
+
+.btn-message {
+	border: 1px solid lime;
+	background: lime;
+}
+
+.owl-mssg-subs button {
+	background: lime;
+	border: 1px solid lime;
+}
+
+.close-button:hover {
+	color: lime;
+}
+
+.social-icons span:hover {
+	color: lime;
+}
+
+.divider {
+	border: 2px solid lime;
+}
+
+.musk-progress {
+	background: lime;
+}
+
+.countdown-timer .word {
+	background: lime;
+}

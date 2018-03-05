@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: slateblue;
+}
+
+a.link {
+	color: slateblue;
+}
+a.link:hover {
+	color: slateblue;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid slateblue;
+}
+.navigation a div:hover {
+	background: slateblue;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: slateblue;
+}
+
+.border-bottom {
+	border-bottom: 2px solid slateblue;
+}
+
+.font-colored {
+	color: slateblue;
+}
+
+.message-form {
+	border-bottom: 1px solid slateblue;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid slateblue;
+}
+
+.btn-message {
+	border: 1px solid slateblue;
+	background: slateblue;
+}
+
+.owl-mssg-subs button {
+	background: slateblue;
+	border: 1px solid slateblue;
+}
+
+.close-button:hover {
+	color: slateblue;
+}
+
+.social-icons span:hover {
+	color: slateblue;
+}
+
+.divider {
+	border: 2px solid slateblue;
+}
+
+.musk-progress {
+	background: slateblue;
+}
+
+.countdown-timer .word {
+	background: slateblue;
+}

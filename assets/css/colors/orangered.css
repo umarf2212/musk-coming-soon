@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: orangered;
+}
+
+a.link {
+	color: orangered;
+}
+a.link:hover {
+	color: orangered;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid orangered;
+}
+.navigation a div:hover {
+	background: orangered;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: orangered;
+}
+
+.border-bottom {
+	border-bottom: 2px solid orangered;
+}
+
+.font-colored {
+	color: orangered;
+}
+
+.message-form {
+	border-bottom: 1px solid orangered;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid orangered;
+}
+
+.btn-message {
+	border: 1px solid orangered;
+	background: orangered;
+}
+
+.owl-mssg-subs button {
+	background: orangered;
+	border: 1px solid orangered;
+}
+
+.close-button:hover {
+	color: orangered;
+}
+
+.social-icons span:hover {
+	color: orangered;
+}
+
+.divider {
+	border: 2px solid orangered;
+}
+
+.musk-progress {
+	background: orangered;
+}
+
+.countdown-timer .word {
+	background: orangered;
+}

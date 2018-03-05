@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: sandybrown;
+}
+
+a.link {
+	color: sandybrown;
+}
+a.link:hover {
+	color: sandybrown;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid sandybrown;
+}
+.navigation a div:hover {
+	background: sandybrown;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: sandybrown;
+}
+
+.border-bottom {
+	border-bottom: 2px solid sandybrown;
+}
+
+.font-colored {
+	color: sandybrown;
+}
+
+.message-form {
+	border-bottom: 1px solid sandybrown;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid sandybrown;
+}
+
+.btn-message {
+	border: 1px solid sandybrown;
+	background: sandybrown;
+}
+
+.owl-mssg-subs button {
+	background: sandybrown;
+	border: 1px solid sandybrown;
+}
+
+.close-button:hover {
+	color: sandybrown;
+}
+
+.social-icons span:hover {
+	color: sandybrown;
+}
+
+.divider {
+	border: 2px solid sandybrown;
+}
+
+.musk-progress {
+	background: sandybrown;
+}
+
+.countdown-timer .word {
+	background: sandybrown;
+}

@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: violet;
+}
+
+a.link {
+	color: violet;
+}
+a.link:hover {
+	color: violet;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid violet;
+}
+.navigation a div:hover {
+	background: violet;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: violet;
+}
+
+.border-bottom {
+	border-bottom: 2px solid violet;
+}
+
+.font-colored {
+	color: violet;
+}
+
+.message-form {
+	border-bottom: 1px solid violet;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid violet;
+}
+
+.btn-message {
+	border: 1px solid violet;
+	background: violet;
+}
+
+.owl-mssg-subs button {
+	background: violet;
+	border: 1px solid violet;
+}
+
+.close-button:hover {
+	color: violet;
+}
+
+.social-icons span:hover {
+	color: violet;
+}
+
+.divider {
+	border: 2px solid violet;
+}
+
+.musk-progress {
+	background: violet;
+}
+
+.countdown-timer .word {
+	background: violet;
+}

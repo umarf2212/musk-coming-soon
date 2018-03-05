@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: peachpuff;
+}
+
+a.link {
+	color: peachpuff;
+}
+a.link:hover {
+	color: peachpuff;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid peachpuff;
+}
+.navigation a div:hover {
+	background: peachpuff;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: peachpuff;
+}
+
+.border-bottom {
+	border-bottom: 2px solid peachpuff;
+}
+
+.font-colored {
+	color: peachpuff;
+}
+
+.message-form {
+	border-bottom: 1px solid peachpuff;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid peachpuff;
+}
+
+.btn-message {
+	border: 1px solid peachpuff;
+	background: peachpuff;
+}
+
+.owl-mssg-subs button {
+	background: peachpuff;
+	border: 1px solid peachpuff;
+}
+
+.close-button:hover {
+	color: peachpuff;
+}
+
+.social-icons span:hover {
+	color: peachpuff;
+}
+
+.divider {
+	border: 2px solid peachpuff;
+}
+
+.musk-progress {
+	background: peachpuff;
+}
+
+.countdown-timer .word {
+	background: peachpuff;
+}

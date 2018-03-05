@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: tomato;
+}
+
+a.link {
+	color: tomato;
+}
+a.link:hover {
+	color: tomato;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid tomato;
+}
+.navigation a div:hover {
+	background: tomato;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: tomato;
+}
+
+.border-bottom {
+	border-bottom: 2px solid tomato;
+}
+
+.font-colored {
+	color: tomato;
+}
+
+.message-form {
+	border-bottom: 1px solid tomato;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid tomato;
+}
+
+.btn-message {
+	border: 1px solid tomato;
+	background: tomato;
+}
+
+.owl-mssg-subs button {
+	background: tomato;
+	border: 1px solid tomato;
+}
+
+.close-button:hover {
+	color: tomato;
+}
+
+.social-icons span:hover {
+	color: tomato;
+}
+
+.divider {
+	border: 2px solid tomato;
+}
+
+.musk-progress {
+	background: tomato;
+}
+
+.countdown-timer .word {
+	background: tomato;
+}

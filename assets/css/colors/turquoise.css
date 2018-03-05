@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: turquoise;
+}
+
+a.link {
+	color: turquoise;
+}
+a.link:hover {
+	color: turquoise;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid turquoise;
+}
+.navigation a div:hover {
+	background: turquoise;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: turquoise;
+}
+
+.border-bottom {
+	border-bottom: 2px solid turquoise;
+}
+
+.font-colored {
+	color: turquoise;
+}
+
+.message-form {
+	border-bottom: 1px solid turquoise;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid turquoise;
+}
+
+.btn-message {
+	border: 1px solid turquoise;
+	background: turquoise;
+}
+
+.owl-mssg-subs button {
+	background: turquoise;
+	border: 1px solid turquoise;
+}
+
+.close-button:hover {
+	color: turquoise;
+}
+
+.social-icons span:hover {
+	color: turquoise;
+}
+
+.divider {
+	border: 2px solid turquoise;
+}
+
+.musk-progress {
+	background: turquoise;
+}
+
+.countdown-timer .word {
+	background: turquoise;
+}

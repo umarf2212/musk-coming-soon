@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: greenyellow;
+}
+
+a.link {
+	color: greenyellow;
+}
+a.link:hover {
+	color: greenyellow;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid greenyellow;
+}
+.navigation a div:hover {
+	background: greenyellow;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: greenyellow;
+}
+
+.border-bottom {
+	border-bottom: 2px solid greenyellow;
+}
+
+.font-colored {
+	color: greenyellow;
+}
+
+.message-form {
+	border-bottom: 1px solid greenyellow;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid greenyellow;
+}
+
+.btn-message {
+	border: 1px solid greenyellow;
+	background: greenyellow;
+}
+
+.owl-mssg-subs button {
+	background: greenyellow;
+	border: 1px solid greenyellow;
+}
+
+.close-button:hover {
+	color: greenyellow;
+}
+
+.social-icons span:hover {
+	color: greenyellow;
+}
+
+.divider {
+	border: 2px solid greenyellow;
+}
+
+.musk-progress {
+	background: greenyellow;
+}
+
+.countdown-timer .word {
+	background: greenyellow;
+}

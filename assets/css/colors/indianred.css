@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: indianred;
+}
+
+a.link {
+	color: indianred;
+}
+a.link:hover {
+	color: indianred;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid indianred;
+}
+.navigation a div:hover {
+	background: indianred;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: indianred;
+}
+
+.border-bottom {
+	border-bottom: 2px solid indianred;
+}
+
+.font-colored {
+	color: indianred;
+}
+
+.message-form {
+	border-bottom: 1px solid indianred;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid indianred;
+}
+
+.btn-message {
+	border: 1px solid indianred;
+	background: indianred;
+}
+
+.owl-mssg-subs button {
+	background: indianred;
+	border: 1px solid indianred;
+}
+
+.close-button:hover {
+	color: indianred;
+}
+
+.social-icons span:hover {
+	color: indianred;
+}
+
+.divider {
+	border: 2px solid indianred;
+}
+
+.musk-progress {
+	background: indianred;
+}
+
+.countdown-timer .word {
+	background: indianred;
+}

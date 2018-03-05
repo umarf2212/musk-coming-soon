@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: rosybrown;
+}
+
+a.link {
+	color: rosybrown;
+}
+a.link:hover {
+	color: rosybrown;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid rosybrown;
+}
+.navigation a div:hover {
+	background: rosybrown;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: rosybrown;
+}
+
+.border-bottom {
+	border-bottom: 2px solid rosybrown;
+}
+
+.font-colored {
+	color: rosybrown;
+}
+
+.message-form {
+	border-bottom: 1px solid rosybrown;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid rosybrown;
+}
+
+.btn-message {
+	border: 1px solid rosybrown;
+	background: rosybrown;
+}
+
+.owl-mssg-subs button {
+	background: rosybrown;
+	border: 1px solid rosybrown;
+}
+
+.close-button:hover {
+	color: rosybrown;
+}
+
+.social-icons span:hover {
+	color: rosybrown;
+}
+
+.divider {
+	border: 2px solid rosybrown;
+}
+
+.musk-progress {
+	background: rosybrown;
+}
+
+.countdown-timer .word {
+	background: rosybrown;
+}

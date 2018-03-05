@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: orange;
+}
+
+a.link {
+	color: orange;
+}
+a.link:hover {
+	color: orange;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid orange;
+}
+.navigation a div:hover {
+	background: orange;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: orange;
+}
+
+.border-bottom {
+	border-bottom: 2px solid orange;
+}
+
+.font-colored {
+	color: orange;
+}
+
+.message-form {
+	border-bottom: 1px solid orange;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid orange;
+}
+
+.btn-message {
+	border: 1px solid orange;
+	background: orange;
+}
+
+.owl-mssg-subs button {
+	background: orange;
+	border: 1px solid orange;
+}
+
+.close-button:hover {
+	color: orange;
+}
+
+.social-icons span:hover {
+	color: orange;
+}
+
+.divider {
+	border: 2px solid orange;
+}
+
+.musk-progress {
+	background: orange;
+}
+
+.countdown-timer .word {
+	background: orange;
+}

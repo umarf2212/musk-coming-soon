@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: skyblue;
+}
+
+a.link {
+	color: skyblue;
+}
+a.link:hover {
+	color: skyblue;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid skyblue;
+}
+.navigation a div:hover {
+	background: skyblue;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: skyblue;
+}
+
+.border-bottom {
+	border-bottom: 2px solid skyblue;
+}
+
+.font-colored {
+	color: skyblue;
+}
+
+.message-form {
+	border-bottom: 1px solid skyblue;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid skyblue;
+}
+
+.btn-message {
+	border: 1px solid skyblue;
+	background: skyblue;
+}
+
+.owl-mssg-subs button {
+	background: skyblue;
+	border: 1px solid skyblue;
+}
+
+.close-button:hover {
+	color: skyblue;
+}
+
+.social-icons span:hover {
+	color: skyblue;
+}
+
+.divider {
+	border: 2px solid skyblue;
+}
+
+.musk-progress {
+	background: skyblue;
+}
+
+.countdown-timer .word {
+	background: skyblue;
+}

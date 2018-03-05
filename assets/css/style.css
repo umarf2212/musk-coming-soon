@@ -1,0 +1,621 @@
+body {
+	color: white;
+	overflow: hidden;
+}
+
+*::-moz-selection {
+	color: black;
+	text-shadow: 1px 1px white;
+}
+
+*:active {
+	border: none;
+}
+
+/* **********************************************
+ * page structure
+ */
+
+/* affix these wrappers behind the content */
+.bg-cover,
+.bg-slider,
+.bg-gradient,
+.bg-overlay,
+.bg-particles-cover {
+	position: fixed; 
+	top: 0; bottom: 0;
+	right: 0; left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* preloader */
+.preloader {
+	position: fixed;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	display: block;
+	background: black;
+	z-index: 1000;
+}
+.preloader span {
+	position: fixed;
+	bottom: 50%;
+	width: 100%;
+	display: block;
+}
+
+@keyframes preloader-anim {
+	0%   {font-size: 28px;}
+	25%  {font-size: 34px;}
+	50%  {font-size: 38px;}
+	75%  {font-size: 34px;}
+	100% {font-size: 28px;}
+}
+@-webkit-keyframes preloader-anim {
+	0%   {font-size: 28px;}
+	25%  {font-size: 34px;}
+	50%  {font-size: 38px;}
+	75%  {font-size: 34px;}
+	100% {font-size: 28px;}
+}
+@-moz-keyframes preloader-anim {
+	0%   {font-size: 28px;}
+	25%  {font-size: 34px;}
+	50%  {font-size: 38px;}
+	75%  {font-size: 34px;}
+	100% {font-size: 28px;}
+}
+.preloader span {
+	-webkit-animation: preloader-anim 2s linear infinite;
+	animation:         preloader-anim 2s linear infinite;
+}
+
+/* single image background */
+.bg-cover {
+	background-image: url('http://i.imgur.com/fccs7Zf.jpg');
+	background-size: cover;
+	background-position: center center;
+	z-index: -39;
+}
+
+/* gradient in background */
+.bg-gradient {
+	background: -webkit-linear-gradient(top,indianred,olive);
+	background: -moz-linear-gradient(top,indianred,olive);
+	background: -o-linear-gradient(top,indianred,olive);
+	background: linear-gradient(top,indianred,olive);
+	z-index: -35;
+}
+
+/* background image parallax */
+.bg-parallax {
+	position: fixed;
+	left: -1.76851%;
+	right: -1.76851%;
+	top: -1.8764%;
+	bottom: -1.8764%;
+	background-image: url('http://i.imgur.com/uKv4RcY.jpg');
+	z-index: -29;
+}
+
+/* background image slider */
+.bg-slider { 
+	z-index: -19;
+}
+
+/* background overlay */
+.bg-overlay {
+	background: url('http://i.imgur.com/krI77sL.png') rgba(0, 0, 0, 0.4);
+	z-index: -1;
+}
+
+/* single image background for particles */
+.bg-particles-cover {
+	background-image: url('http://i.imgur.com/T85khog.jpg');
+	background-size: cover;
+	z-index: -39;
+}
+
+/* contains particles canvas */
+.bg-particles {
+	position: fixed;
+	top: 0; bottom: 0;
+	left:0; right: 0;
+	z-index: 5;
+}
+
+/* navigation bar styles */
+.navigation {
+}
+
+.navigation a div {
+	z-index: 9;
+	background: rgba(255, 255, 255, 0.9);
+	color: black;
+	font-size: 14px;
+	-webkit-transition: background 0.5s;
+	-moz-transition:    background 0.5s;
+	-o-transition:      background 0.5s;
+	transition:         background 0.5s;
+}
+
+.navigation a:first-child div {
+	border-radius: 0 0 0 15px;
+}
+.navigation a:last-child div {
+	border-radius: 0 0 15px 0;
+}
+
+/* containers and their styles */
+
+.main-container {
+	position: absolute;
+	width: 100%;
+	top: 15%;
+	bottom: 0;
+	z-index: 10;
+}
+
+.main-container .coming-soon p {
+	font-size: 19px;
+	margin: 15px;
+}
+
+.coming-soon img.logo {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.coming-soon-header {
+	font-size: 48px;
+}
+
+.content-section {
+	margin-top: 50px;
+	font-size: 18px;
+	background: rgba(0, 0, 0, 0.4);
+}
+.content-section .btn {
+	margin-bottom: 5px;
+}
+
+.contact-details .fa-home {
+	margin-right: 1px;
+}
+.contact-details .fa-phone {
+	margin-right: 4px;
+}
+.contact-details .fa-link {
+	margin-right: 1px;
+}
+
+.main-container-about,
+.main-container-contact,
+.main-container-photos,
+.main-container-services {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0; bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 20;
+	overflow: hidden;
+}
+.main-container-contact form {
+	margin-top: 80px;
+}
+
+.row-about {
+	margin-top: 90px;
+}
+
+.row-about blockquote {
+	margin-top: 15px;
+}
+.row-about blockquote p {
+	margin-left: 40px;
+}
+.row-about blockquote span {
+	width: 45px;
+}
+
+.owl-prev,
+.owl-next {
+	background: none;
+	border: none;
+}
+
+.owl-prev {
+	margin-right: 40px;
+}
+.owl-next {
+	margin-left: 40px
+}
+
+.row-about .fa {
+	display: block;
+}
+
+.row-about #about-us small {
+	display: block;
+}
+
+.margin-top-90 {
+	margin-top: 90px;
+}
+.margin-bottom-40 {
+	margin-bottom: 40px;
+}
+
+/* **********************************************
+ * Photos Section Styles
+ */
+.photos-section {}
+
+.photos-section div {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.photos-section div img {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding: 10px;
+	border: 1px solid black;
+}
+.photos-section div img:hover {
+	border: 1px solid white;
+}
+
+/* **********************************************
+ * services carousel styles
+ */
+
+#services-carousel img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+/* **********************************************
+ * for smaller screens
+ */
+
+@media (max-width: 767px) {
+	.main-container,
+	.main-container-about,
+	.main-container-contact,
+	.main-container-photos,
+	.main-container-services {
+		overflow: scroll;
+	}
+	
+	.navigation a:first-child div {
+		border-radius: 0;
+	}
+	.navigation a:last-child div {
+		border-radius: 0;
+	}
+	
+	.bg-cover,
+	.bg-particles-cover {
+		background-position: center center;
+	}
+	
+	.photos-section {
+		height: auto;
+	}
+
+}
+
+/* **********************************************
+ * for larger screens
+ */
+
+@media (min-height: 1200px) {}
+ 
+/* **********************************************
+ * basic styling
+ */
+
+.message-form {
+	display: block;
+	width: 100%;
+	background: transparent;
+	border: none;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	-webkit-transition: border-bottom 0.5s;
+	-moz-transition:    border-bottom 0.5s;
+	-o-transition:      border-bottom 0.5s;
+	transition:         border-bottom 0.5s;
+}
+.message-form.error {
+	border-color: red;
+}
+label.error {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: courier;
+    margin: 0;
+	display: block;
+}
+
+.btn-message {
+	padding: 8px;
+	color: black;
+	-webkit-transition: color 0.5s, background 0.3s;
+	-moz-transition:    color 0.5s, background 0.3s;
+	-o-transition:      color 0.5s, background 0.3s;
+	transition:         color 0.5s, background 0.3s;
+}
+.btn-message:hover {
+	background: transparent;
+	color: white;
+}
+
+.subscribe-form {
+	padding: 30px;
+}
+
+.owl-mssg-subs button {
+	padding: 1px;
+	color: black;
+	font-size: 14px;
+	border-radius: 5px;
+	-webkit-transition: color 0.5s, background 0.3s, border 0.3s;
+	-moz-transition:    color 0.5s, background 0.3s, border 0.3s;
+	-o-transition:      color 0.5s, background 0.3s, border 0.3s;
+	transition:         color 0.5s, background 0.3s, border 0.3s;
+}
+.owl-mssg-subs button:hover {
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+}
+
+.close-button {
+	display: block;
+	cursor: pointer;
+	margin-bottom: 70px;
+	-webkit-transition: transform 0.7s, color 1s;
+	-moz-transition:    transform 0.7s, color 1s;
+	-o-transition:      transform 0.7s, color 1s;
+	transition:         transform 0.7s, color 1s;
+}
+.close-button:hover {
+	-webkit-transform: rotate(90deg);
+	-moz-transform:    rotate(90deg);
+	-o-transform:      rotate(90deg);
+	transform:         rotate(90deg);
+}
+
+.social-icons a {
+	display: inline-block;
+}
+.social-icons span {
+	margin: 6px;
+	-webkit-transition: color 0.5s;
+	-moz-transition:    color 0.5s;
+	-o-transition:      color 0.5s;
+	transition:         color 0.5s;
+}
+.social-icons span:hover {
+	position: relative;
+	bottom: 5px;
+}
+
+.divider {
+	width: 10%;
+	height: 0px;
+}
+
+.small-bold-colored {
+	font-weight: bold;
+	font-size: 19px;
+	display: block;
+}
+.musk-progress-bar {
+	height: 4px;
+	background: white;
+	display: block;
+	width: 100%;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+.musk-progress {
+	height: 100%;
+	border-radius: 100px;
+}
+
+.mfp-close {
+	font-size: 50px !important;
+	color: #fff !important;
+	margin-top: 40px;
+	margin-right: 10px;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+/* **********************************************
+ * typography
+ */
+
+/* add font */
+@font-face {
+	font-family: 'Monda';
+	src: url('../fonts/Monda/Monda-Regular.ttf');
+}
+.font-monda {
+	font-family: Monda;
+}
+
+@font-face {
+	font-family: 'Asap';
+	src: url('../fonts/Asap/Asap-Regular.ttf');
+}
+.font-asap {
+	font-family: 'Asap';
+}
+
+@font-face {
+	font-family: 'lobster';
+	src: url('../fonts/Asap/Lobster.ttf');
+}
+.font-lobster {
+	font-family: 'lobster', asap;
+}
+
+/* countdown timer area removes the
+ * touch scroll support due to continuous
+ * change in second numbers.
+ */
+.touch-scroll-support {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.countdown-timer .big {
+	font-size: 4em;
+}
+
+.countdown-timer .word {
+	font-size: 0.8em;
+	color: black;
+	padding: 2px;
+}
+
+.ul-timer li {
+	display: inline;
+	list-style-type: none;
+}
+
+/* **********************************************
+ * footer area
+ */
+footer.footer {
+	margin-top: 50px;
+}
+footer.footer span {
+	color: white;
+}
+
+/* **********************************************
+ * demo
+ */
+
+.demo-box {
+	position: absolute;
+	width: 100%;
+	bottom:0;
+	z-index: 1000;
+}
+.demo-button.fa {
+	position: absolute;
+	top: 54px;
+	right: 0;
+	z-index: 999;
+	padding: 5px;
+	cursor: pointer;
+	background: rgba(0,0,0,0.5);
+}
+
+.color-box {
+	padding: 10px;
+	background: rgba(0,0,0,0.8);
+	position: relative;
+	z-index: 999;
+}
+.color-box div.color {
+	display: inline-table;
+	margin: 8px;
+	width: 35px;
+	height: 35px;
+	border: 1px solid black;
+}
+.color-box div.color:hover {
+	cursor: pointer;
+	border: 3px solid rgba(0,0,0,0.5);
+}
+
+/* color group */
+.color#indianred {
+	background: indianred;
+}
+.color#lightgreen {
+	background: lightgreen;
+}
+.color#orange {
+	background: orange;
+}
+.color#springgreen {
+	background: springgreen;
+}
+.color#orangered {
+	background: orangered;
+}
+.color#khaki {
+	background: khaki;
+}
+.color#plum {
+	background: plum;
+}
+.color#peachpuff {
+	background: peachpuff;
+}
+.color#slateblue {
+	background: slateblue;
+}
+.color#greenyellow {
+	background: greenyellow;
+}
+.color#hotpink {
+	background: hotpink;
+}
+.color#lightcoral {
+	background: lightcoral;
+}
+.color#lightsalmon {
+	background: lightsalmon;
+}
+.color#skyblue {
+	background: skyblue;
+}
+.color#sandybrown {
+	background: sandybrown;
+}
+.color#lime {
+	background: lime;
+}
+.color#pink {
+	background: pink;
+}
+.color#rosybrown {
+	background: rosybrown;
+}
+.color#lightseagreen {
+	background: lightseagreen;
+}
+.color#steelblue {
+	background: steelblue;
+}
+.color#tomato {
+	background: tomato;
+}
+.color#turquoise {
+	background: turquoise;
+}
+.color#violet {
+	background: violet;
+}
+.color#yellowgreen {
+	background: yellowgreen;
+}

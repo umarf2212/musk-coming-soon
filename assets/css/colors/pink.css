@@ -1,0 +1,70 @@
+*::-moz-selection {
+	background: pink;
+}
+
+a.link {
+	color: pink;
+}
+a.link:hover {
+	color: pink;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.navigation a div {
+	border-bottom: 5px solid pink;
+}
+.navigation a div:hover {
+	background: pink;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+	color: pink;
+}
+
+.border-bottom {
+	border-bottom: 2px solid pink;
+}
+
+.font-colored {
+	color: pink;
+}
+
+.message-form {
+	border-bottom: 1px solid pink;
+}
+
+.message-form:focus {
+	border-bottom: 5px solid pink;
+}
+
+.btn-message {
+	border: 1px solid pink;
+	background: pink;
+}
+
+.owl-mssg-subs button {
+	background: pink;
+	border: 1px solid pink;
+}
+
+.close-button:hover {
+	color: pink;
+}
+
+.social-icons span:hover {
+	color: pink;
+}
+
+.divider {
+	border: 2px solid pink;
+}
+
+.musk-progress {
+	background: pink;
+}
+
+.countdown-timer .word {
+	background: pink;
+}
